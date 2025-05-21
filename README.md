@@ -11,12 +11,13 @@ python authorship.py --predict unknown_text.txt
 ```
 ### Структура проекта
 
-.  
-├── authorship.py              # основной файл  
-├── authorship_features.py     # вспомогательный модуль  
-├── your_dataset.csv           # твой датасет  
-├── unknown_text.txt           # текст для предсказания (опционально)  
-├── model.pkl  
-├── tfidf_word.pkl  
-├── tfidf_pos.pkl  
-├── scaler.pkl  
+.
+├── authorship.py              # основной файл с обучением и предсказанием
+├── authorship_features.py     # извлечение признаков из текста
+├── your_dataset.csv           # датасет с текстами и авторами
+├── unknown_text.txt           # текст для предсказания (опционально)
+├── model.pkl                  # обученная модель (Logistic Regression)
+├── tfidf_word.pkl             # TF-IDF-векторизатор по словам
+├── tfidf_pos.pkl              # TF-IDF-векторизатор по POS-тегам
+├── scaler.pkl                 # стандартизатор признаков
+
