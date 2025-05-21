@@ -11,7 +11,7 @@ python authorship.py --predict unknown_text.txt
 ```
 ### Структура проекта
 
-.
+.  
 ├── authorship.py              # основной файл с обучением и предсказанием  
 ├── authorship_features.py     # извлечение признаков из текста  
 ├── your_dataset.csv           # датасет с текстами и авторами  
